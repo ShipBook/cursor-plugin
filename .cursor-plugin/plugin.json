@@ -1,0 +1,14 @@
+{
+  "name": "shipbook",
+  "version": "1.0.0",
+  "description": "Connect Cursor to ShipBook's cloud logging platform. Search logs, investigate errors, and debug sessions via MCP.",
+  "author": {
+    "name": "ShipBook",
+    "email": "support@shipbook.io"
+  },
+  "homepage": "https://shipbook.io",
+  "repository": "https://github.com/ShipBook/cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["shipbook", "logging", "debugging", "error-tracking", "mcp", "observability"]
+}
