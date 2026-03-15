@@ -1,11 +1,11 @@
 ---
-description: Guidelines for using ShipBook MCP tools to search logs, investigate errors, and debug user sessions
+description: Guidelines for using Shipbook MCP tools to search logs, investigate errors, and debug user sessions
 alwaysApply: true
 ---
 
-# ShipBook Tools Usage Guide
+# Shipbook Tools Usage Guide
 
-You have access to ShipBook MCP tools for cloud log analysis.
+You have access to Shipbook MCP tools for cloud log analysis.
 
 ## Available Tools
 

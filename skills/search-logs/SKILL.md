@@ -1,11 +1,11 @@
 ---
 name: search-logs
-description: Search ShipBook logs with filters. Find logs by message text, severity, user, device, time range, file name, or tag.
+description: Search Shipbook logs with filters. Find logs by message text, severity, user, device, time range, file name, or tag.
 ---
 
 # Search Logs
 
-Use ShipBook MCP tools to search for specific log entries.
+Use Shipbook MCP tools to search for specific log entries.
 
 ## Steps
 

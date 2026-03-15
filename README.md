@@ -1,10 +1,10 @@
-# ShipBook Plugin for Cursor
+# Shipbook Plugin for Cursor
 
-Connect [Cursor](https://cursor.com) to [ShipBook](https://shipbook.io)'s cloud logging platform via MCP (Model Context Protocol).
+Connect [Cursor](https://cursor.com) to [Shipbook](https://shipbook.io)'s cloud logging platform via MCP (Model Context Protocol).
 
 Search logs, investigate errors, and debug user sessions — all from within your IDE using AI.
 
-**Prerequisites:** A [ShipBook](https://shipbook.io) account with at least one app. [Get started here](https://docs.shipbook.io).
+**Prerequisites:** A [Shipbook](https://shipbook.io) account with at least one app. [Get started here](https://docs.shipbook.io).
 
 ## Features
 
@@ -12,7 +12,7 @@ Search logs, investigate errors, and debug user sessions — all from within you
 
 | Tool | Description |
 |------|-------------|
-| **get-account-apps** | List all apps in your ShipBook account |
+| **get-account-apps** | List all apps in your Shipbook account |
 | **get-loglytics-errors** | Retrieve grouped/classified errors with occurrence counts |
 | **get-logs** | Search logs with 20+ filters (severity, user, device, time, etc.) |
 
@@ -34,17 +34,17 @@ Built-in AI guidance for optimal tool usage, including investigation workflows a
 
 ### From Cursor Marketplace
 
-Search for "ShipBook" in the Cursor marketplace and click Install.
+Search for "Shipbook" in the Cursor marketplace and click Install.
 
 ### One-Click Install
 
 <a href="cursor://anysphere.cursor-deeplink/mcp/install?name=shipbook&config=eyJ1cmwiOiJodHRwczovL2FwaS5zaGlwYm9vay5pby9tY3AiLCJhdXRoIjp7IkNMSUVOVF9JRCI6ImExZGI4ZGY1LWNlYjUtNDAxMy04YzM1LWFmOWU0NTdjNjliNSJ9fQ">
-  <img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Install ShipBook MCP in Cursor" height="32" />
+  <img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Install Shipbook MCP in Cursor" height="32" />
 </a>
 
 ## Authentication
 
-The plugin uses **OAuth 2.1** for secure authentication. On first use, you will be redirected to ShipBook to log in and authorize access. Your credentials are never shared with Cursor.
+The plugin uses **OAuth 2.1** for secure authentication. On first use, you will be redirected to Shipbook to log in and authorize access. Your credentials are never shared with Cursor.
 
 ## Usage Examples
 
@@ -53,12 +53,12 @@ The plugin uses **OAuth 2.1** for secure authentication. On first use, you will 
 - "Show me logs from the last hour with severity Error"
 - "Investigate the most common crash in my iOS app"
 - "Debug the session where user X reported a problem"
-- "Fix the issues found in ShipBook Loglytics"
+- "Fix the issues found in Shipbook Loglytics"
 
 ## Documentation
 
-- [ShipBook MCP Documentation](https://docs.shipbook.io/mcp)
-- [ShipBook Website](https://shipbook.io)
+- [Shipbook MCP Documentation](https://docs.shipbook.io/mcp)
+- [Shipbook Website](https://shipbook.io)
 
 ## License
 

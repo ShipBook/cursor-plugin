@@ -1,11 +1,11 @@
 ---
 name: investigate-errors
-description: Investigate and diagnose errors in a ShipBook app. Retrieves grouped error data from Loglytics, finds specific error instances, and traces the full session context to identify root causes.
+description: Investigate and diagnose errors in a Shipbook app. Retrieves grouped error data from Loglytics, finds specific error instances, and traces the full session context to identify root causes.
 ---
 
 # Investigate Errors
 
-Use ShipBook MCP tools to investigate errors in an application.
+Use Shipbook MCP tools to investigate errors in an application.
 
 ## Steps
 

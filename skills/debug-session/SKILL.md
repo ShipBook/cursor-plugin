@@ -1,11 +1,11 @@
 ---
 name: debug-session
-description: Debug a specific user session in ShipBook. Finds logs for a user by email, device ID, or user ID, then traces the full session to understand what happened.
+description: Debug a specific user session in Shipbook. Finds logs for a user by email, device ID, or user ID, then traces the full session to understand what happened.
 ---
 
 # Debug User Session
 
-Use ShipBook MCP tools to debug what happened in a specific user's session.
+Use Shipbook MCP tools to debug what happened in a specific user's session.
 
 ## Steps
 
