@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.shipbook/mcp",
+  "title": "Shipbook",
+  "description": "Debug production issues using Shipbook logs and Loglytics error insights.",
+  "websiteUrl": "https://www.shipbook.io/",
+  "version": "1.0.0",
+  "iconUrl": "https://www.shipbook.io/favicon.ico",
+  "documentationUrl": "https://docs.shipbook.io/mcp",
+  "repository": {
+    "url": "https://github.com/ShipBook/shipbook-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.shipbook.io/mcp"
+    }
+  ]
+}
