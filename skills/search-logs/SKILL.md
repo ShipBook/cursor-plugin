@@ -13,10 +13,12 @@ Use Shipbook MCP tools to search for specific log entries.
 2. Translate the user's natural language query into appropriate get-logs filters:
    - Severity → `severity` (Error, Warning, Info, Debug, Verbose). When investigating issues, start with Error.
    - Text search → `msg` (free text search in log messages)
-   - Code location → `fileName`, `tag`, `lineNumber`
-   - Device → `udid` (unique device ID — use for specific device searches), `deviceModel`, `manufacturer`
+   - Code location → `fileName`, `tag`, `className`, `lineNumber`
+   - Device → `udid` (unique device ID — use for specific device searches), `deviceModel`, `manufacturer`, `osName` (e.g. iOS, Android), `osVersion`, `language`
    - User → `userId`, `userName`, `fullName`, `email`, `phoneNumber`
    - App → `appVersion`
+   - Negation → prefix any filter value with `!` or `-` to exclude (e.g. `appVersion: !1.5.5`)
+   - Version comparison → `appVersion` and `osVersion` support `>`, `>=`, `<`, `<=` (e.g. `appVersion: >2.0`)
    - Loglytics → `key` (error key from get-loglytics-errors — finds all logs for a specific classified error)
    - Session → `session` (session ID — retrieves all logs from that session. After finding an error, use its session ID without severity filter to see full context)
    - Pagination → `minOrderId` (logs after this order), `maxOrderId` (logs before this order) — use to navigate within a session
