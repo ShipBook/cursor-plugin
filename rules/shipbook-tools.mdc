@@ -9,7 +9,7 @@ You have access to Shipbook MCP tools for cloud log analysis.
 
 ## Available Tools
 
-1. **get-account-apps** — Lists all apps in the account (name, appId, platform, key). Call this first to get the appId and key needed by other tools and for SDK initialization.
+1. **get-account-apps** — Lists all apps in the account (name, appId, platform, key, integration). Call this first to get the appId and key needed by other tools and for SDK initialization.
 
 2. **create-app** — Creates a new app in the account. Returns name, appId, and key. Platform is detected automatically on first SDK session.
    - Required: `name`

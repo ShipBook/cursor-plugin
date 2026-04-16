@@ -54,7 +54,7 @@ npm install @shipbook/node
 
 ### 3. Get or create app credentials
 
-Call `get-account-apps` to list the user's apps (returns name, appId, platform, key).
+Call `get-account-apps` to list the user's apps (returns name, appId, platform, key, integration).
 
 - If matching apps exist, ask the user which one to use
 - If no apps exist or the user wants a new one, call `create-app` with a name to create one

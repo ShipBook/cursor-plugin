@@ -21,7 +21,7 @@ Works with any MCP-compatible AI assistant:
 
 | Tool | Description |
 |------|-------------|
-| **get-account-apps** | List all apps in your account (name, appId, platform, key) |
+| **get-account-apps** | List all apps in your account (name, appId, platform, key, integration) |
 | **create-app** | Create a new app and get its credentials (name, appId, key) |
 | **get-loglytics-errors** | Retrieve grouped/classified errors with occurrence counts |
 | **get-logs** | Search logs with 20+ filters (severity, user, device, time, etc.) |

@@ -9,7 +9,7 @@ Use Shipbook MCP tools to search for specific log entries.
 
 ## Steps
 
-1. Call `get-account-apps` to identify the target app if not already known (returns name, appId, platform, key). If the user didn't specify an app, detect the current project's platform and filter matching apps. If there are still multiple matches, ask the user which one.
+1. Call `get-account-apps` to identify the target app if not already known (returns name, appId, platform, key, integration). If the user didn't specify an app, detect the current project's platform and filter matching apps. If there are still multiple matches, ask the user which one.
 2. Translate the user's natural language query into appropriate get-logs filters:
    - Severity → `severity` (Error, Warning, Info, Debug, Verbose). When investigating issues, start with Error.
    - Text search → `msg` (free text search in log messages)
